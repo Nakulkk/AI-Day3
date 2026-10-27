@@ -1,0 +1,14 @@
+  description: Countries request return 200
+  name: get_countries
+  request:
+    method: GET
+    url: /countries/v5
+  response:
+    status: 200
+    body:
+      data:
+        object:
+          - names:
+              common: Canada
+            capitals:
+              - name: Ottawa
